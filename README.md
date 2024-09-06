@@ -25,3 +25,5 @@ Quer ajudar a melhorar o projeto? Fork, crie um branch e mande um pull request!
 
 * A todos os desenvolvedores que contribuíram para o open source!
 * A minha mãe, por me deixar viciado em anime desde criança. 
+
+Anime Finder - Imersao Dev e Google Gemini
