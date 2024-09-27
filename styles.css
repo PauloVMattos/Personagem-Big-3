@@ -17,9 +17,9 @@ body {
 /* Estiliza os títulos h1 */
 h1 {
     font-size: 2.5rem; /* Tamanho da fonte */
-    color: #222831; /* Cor do texto */
+    color: #1d2530; /* Cor do texto */
     text-align: center; /* Alinha o texto ao centro */
-    letter-spacing: 0.4rem; /* Espaçamento entre letras */
+    letter-spacing: 0.3rem; /* Espaçamento entre letras */
 }
 
 /* Estiliza as seções da página */
@@ -55,10 +55,16 @@ section button {
 
 /* Adiciona efeito hover ao botão de pesquisa */
 section button:hover {
-    background-color: #08080928; /* Muda a cor de fundo ao passar o mouse */
+    background-color: #08080980; /* Muda a cor de fundo ao passar o mouse */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adiciona uma sombra mais intensa */
 }
-
+img{
+    max-width: 130px;
+    float:left;
+    border: 1px solid #be191973;
+    border-radius: 75px;
+    margin-right: 15px;
+}
 /* Estiliza a caixa de resultados da pesquisa */
 .resultados-pesquisa {
     width: 60rem; /* Largura máxima da caixa de resultados */

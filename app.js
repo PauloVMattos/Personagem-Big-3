@@ -21,6 +21,7 @@ function pesquisar(){
         if(titulo.includes(campoPesquisa) || descricao.includes(campoPesquisa)){
             resultados +=`
         <div class="item-resultado">
+        <img src=${dado.foto} alt="">
             <h2><a href=${dado.link} target="_blank">${dado.titulo}</a></h2> 
                 <p class="descricao-meta">${dado.descricao}</p> 
         </div>
@@ -28,7 +29,7 @@ function pesquisar(){
         }
     
         if(!resultados){
-            resultados = "<p>Nada foi Encontrado</p>"
+            resultados == "<p>Nada foi Encontrado</p>"
         }
 
     }
